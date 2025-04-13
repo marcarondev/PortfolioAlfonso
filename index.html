@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +8,24 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-content">
             <a href="#" class="logo">Portfolio <span class="logo-subtitle"></span></a>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#goals">Goals & Vision</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#future">Future</a></li>
-                <li><a href="#models">Role Models</a></li>
+                <li><a href="#connect">Connect with me</a></li>
             </ul>
             <div class="hamburger">
                 <span></span>
@@ -51,7 +58,7 @@
                 <div class="hobby-card">
                     <i class="fas fa-code"></i>
                     <h3>Frontend Development</h3>
-                    <p>HTML, CSS, JavaScript</p>
+                    <p>HTML, CSS, JavaScript, Typescript</p>
                 </div>
                 <div class="hobby-card">
                     <i class="fas fa-database"></i>
@@ -60,8 +67,8 @@
                 </div>
                 <div class="hobby-card">
                     <i class="fas fa-tools"></i>
-                    <h3>Tools & Technologies</h3>
-                    <p>Github</p>
+                    <h3>Tools & Framework</h3>
+                    <p>Github, Angular, Postman, DBeaver</p>
                 </div>
             </div>
         </div>
@@ -87,31 +94,7 @@
             </div>
         </div>
 
-        <div class="section" id="models">
-            <h2><span class="section-number">04</span> My Role Models</h2>
-            <div class="role-models">
-                <div class="role-model">
-                    <figure class="role-model-image">
-                        <img src="https://www.fairobserver.com/wp-content/uploads/2020/03/Microsoft-news.jpg" alt="bill gates">
-                        <figcaption>
-                            <h3>Bill Gates</h3>
-                            <p>Co founder of Microsoft</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="role-model">
-                    <figure class="role-model-image">
-                        <img src="https://wallpapers.com/images/hd/elon-musk-tesla-ceo-7inqtadovm68htki.jpg" alt="Elon Musk">
-                        <figcaption>
-                            <h3>Elon Musk</h3>
-                            <p>Owns Tesla, SpaceX, X (formerly Twitter), Neuralink, xAI and The Boring Company</p>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
+        <div class="section" id="goals">
             <h2><span class="section-number">05</span> My Goals & Vision</h2>
             <div class="vision-board">
                 <div class="vision-item">
@@ -124,12 +107,12 @@
                 </div>
                 <div class="vision-item">
                     <h3>Mentorship</h3>
-                    <p>Give back by mentoring future interns and on-the-job trainees (OJTs), helping them grow in the IT field.
+                    <p>Give back by mentoring future interns and on-the-job trainees (OJTs), helping them grow in the IT field.</p>
                 </div>
             </div>
         </div>
 
-        <div class="connect-section">
+        <div class="connect-section" id="connect">
             <h2 class="connect-title">Connect With Me</h2>
             <p class="connect-subtitle">Let's build something great together—reach out anytime!</p>
             <div class="social-links">
@@ -149,4 +132,5 @@
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
